@@ -1,4 +1,4 @@
-This website was built in 2017 for a freind starting a brewery in Oklahoma City. 
+This website was built in 2017 for a friend starting a brewery in Oklahoma City. 
 
 This website was created with Bootstrap, HTML, CSS and a little bit of JavaScript, all built from scratch. 
 The website for Stonecloud Brewing Company has been updated in recent years, and the original website can
