@@ -1,0 +1,187 @@
+/*CSS for Sunshine Building Page*/
+
+body{
+    /*background-image:  url(Images/Sunshine.jpg); #203d56;*/
+    background-color: #ffffff; /*#e5e5e5;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000000;
+    padding-top: 88px;
+    font-family: 'Exo', sans-serif;
+    font-size: 2.2em;
+}
+
+.content {
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.navbar {
+    color: #000000;
+}
+/*===========================================================================*/
+
+body#taproom {
+    background-image: url(Images/Barrel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Lato;
+    color: #000000;
+    padding-top: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    opacity: .2;
+}
+
+hr#hrconnect{
+    max-width: 100px;
+}
+
+hr#hrtr{
+    max-width: 180px;
+}
+
+hr#hrlocation{
+    max-width: 110px;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #191919;
+}
+
+
+#outsidecontainer.conainer {
+    background-color: pink;
+}
+#logo {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    max-width:200px;
+    max-height: 89px;
+
+}
+
+/*Contact banner on taproom page*/
+#contact {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: auto;
+    background-size: 100%;
+    color: #ffffff;
+}
+
+#map {
+    height: 235px;
+    width: auto;
+}
+
+#content {
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: initial;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5em;
+}
+
+html {
+    height: 100%;
+}
+
+
+#header.navbar-inverse {
+    border-bottom: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 1em;
+    box-shadow: 0 0 8px 2px rgba(0,0,0,.5);
+}
+
+#footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-shadow: 0 0 8px 1px rgba(0,0,0,.75);
+}
+
+
+.nav-tabs {
+   background-color:cadetblue;
+   font-weight:bolder;
+   border-top-left-radius:0px;
+   border-top-right-radius:0px;
+   color:orange;
+}
+
+#grayimage {
+    -webkit-filter: grayscale(100%);
+}
+
+#grayimage:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+#backgroundimage {
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Lato;
+    color: #ffffff;
+    height: auto;
+
+}
+
+#space {
+    height: 300px;
+}
+
+#space2 {
+    background-color: #e5e5e5;
+    height: auto;
+    text-align: center;
+    color: #000000;
+}
+
+/*===========================================================================*/
+/* This line controls the background color and opacity when the age gate appears.*/
+
+div#no_age_cookie {
+background: rgba(255,255,255,.8);
+}
+
+
+
+/*==========================================================================*/
+@media (max-width: 480px) {
+    #carousel-example-generic {
+        padding-top: 89px;
+    }
+    p {
+        font-size: 16px;
+    }
+}

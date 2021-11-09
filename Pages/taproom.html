@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Taproom</title>
+
+    <script type="text/javascript" src="hide_it.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700i" rel="stylesheet"/>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="pagestyles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Stonecloud Brewing Company brings bold, progressive, neo American styles to Oklahoma">
+    <meta name="keywords" content="Stonecloud, brewing, beer, hops, Oklahoma, barrel aged, sour">
+</head>
+
+<body id="taproom">
+
+    <!--Age verification-->
+    <!--<script type="text/javascript" src="output_age_form.js"></script>-->
+    <!--Javascript required message-->
+
+    <noscript>
+        <div style="position: absolute; top: 10px; left: 0px; z-index: 3000; height: 100%; width: 100%; background-color: #FFFFFF;text-align:center;">
+            <h1>JavaScript is not enabled.</h1><br />
+            <h2 style="margin: 10px;">This site contains age restricted material; your browser must have JavaScript and cookies enabled to access it.</h2><br />
+            <h2>Thank You</h2>
+        </div>
+    </noscript>
+
+
+
+    <nav id="header" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-left">
+                    <img id="logo" src="Images/StonecloudLogoTransparent.png" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="OurStory.html">Our Story</a></li>
+                    <li><a href="TheSunshineBuilding.html">The Sunshine Building</a></li>
+                    <li class="active"><a href="taproom.html">Taproom</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div id="space" class="container-fluid">
+            </div>
+        </div>
+
+        <div id="contact" class="row">
+
+            <div class="container">
+
+                <h2>Contact Us</h2>
+
+                <div class="col-sm-6">
+                    <div id="map" class="thumbnail image-responsive"></div>
+                </div>
+
+
+                <div class="col-sm-6">
+                    <form class="form-horizontal" role="form" method="post" action="index.php">
+                    	<div class="form-group">
+                    		<label for="name" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                    			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+                            </div>
+                    	</div>
+                    	<div class="form-group">
+                    		<label for="email" class="col-sm-2 control-label">Email</label>
+                    		<div class="col-sm-10">
+                    			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                    		</div>
+                    	</div>
+                    	<div class="form-group">
+                    		<label for="message" class="col-sm-2 control-label">Message</label>
+                    		<div class="col-sm-10">
+                    			<textarea class="form-control" rows="4" name="message"></textarea>
+                    		</div>
+                    	</div>
+                    	<div class="form-group">
+                    		<div class="col-sm-10 col-sm-offset-2">
+                    			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                    		</div>
+                    	</div>
+                    	<div class="form-group">
+                    		<div class="col-sm-10 col-sm-offset-2">
+                    			<! Will be used to display an alert to the user>
+                    		</div>
+                    	</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="space" class="container-fluid">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="footer" class="container-fluid">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <h3>Connect</h3>
+                    <a href="https://www.facebook.com/StonecloudBrewingCo/" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/explore/locations/1157800867595928/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+               </div>
+
+               <div class="col-sm-4 hidden-xs">
+                   <h3>Taproom Hours</h3>
+                   <p>Monday-Friday: 12:00 PM to 10:00 PM<br>
+                       Saturday: 11:00AM to 11:00 PM<br>
+                       Sunday: 12:00 PM to 10:00 PM
+               </div>
+
+               <div class="col-sm-4 hidden-xs">
+                   <h3>Location</h3>
+                   <address>
+                      Stonecloud Brewing Company<br>
+                      1012 NW 1st Street, Suite 101<br>
+                      Oklahoma City, OK<br>
+                      73106<br>
+                    </address>
+               </div>
+           </div>
+       </div>
+
+           <hr class="visible-xs"/>
+       <div class="container">
+           <div class="row">
+               <div class="col-sm-12 visible-xs">
+               <div class="fa fa-copyright fa-1x" aria-hidden="true"> 2017 Stonecloud Brewing Company</div>
+                       Stonecloud Brewing Company &#9679 1012 NW 1st Street, Suite 101, Oklahoma City, OK 73106
+              </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        }
+    }
+    </script>
+
+
+    <script>
+      function initMap() {
+        var uluru = {lat: 35.4688, lng: -97.5290};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+
+<script src="http://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgwy_kU1Zlz0dQ3R2fxGXEVwXg6Nenpow&callback=initMap">
+</script>
+
+<script type="text/javascript" src="ageChecker.js"></script>
+
+</body>
+</html>
